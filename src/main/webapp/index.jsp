@@ -51,7 +51,7 @@
 
 
 <script>
-    var ws = new WebSocket("ws://localhost:8280/monitor/echo");
+    var ws = new WebSocket("ws://http://10.197.113.214:8280/monitor/echo");
     var critical = new Audio("CRITICAL.mp3");
     var warning = new Audio("WARNING.mp3");
     var isCritical = function (json) {
